@@ -47,6 +47,7 @@ public class HelloTraceV1 {
         for (int i = 0; i < level; i++) {
             sb.append((i == level - 1) ? "|" + prefix : "| ");
         }
+
         return sb.toString();
     }
 }
